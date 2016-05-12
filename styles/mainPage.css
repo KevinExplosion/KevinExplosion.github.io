@@ -1,0 +1,125 @@
+html {
+  background-color: none;
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, sans-serif, serif;
+}
+
+body {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f1ef+35,829d98+69,4e5c5a+89,0e0e0e+100 */
+  background: rgb(242,241,239); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(242,241,239,1) 35%, rgba(130,157,152,1) 69%, rgba(78,92,90,1) 89%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(242,241,239,1) 35%,rgba(130,157,152,1) 69%,rgba(78,92,90,1) 89%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(242,241,239,1) 35%,rgba(130,157,152,1) 69%,rgba(78,92,90,1) 89%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f1ef', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+.pageHeader {
+  text-align: center;
+}
+
+.subHeading {
+  text-align: center;
+}
+
+.pageTitle{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.mainImage img{
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+  margin-left:
+}
+
+.pageTitle .buttons img{
+  height: 40px;
+  width: 40px;
+  border-radius: 200px;
+  box-shadow: 0 0 2px #000;
+}
+
+.jumbotron h1, .jumbotron h2 {
+  font-family: 'Sarpanch';
+  text-shadow: 0 0 2px #000;
+}
+
+.line-span:before{
+  border-bottom: 1px solid black;
+}
+/*.line-span::before,
+.line-span::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 600px;
+}
+.line-span::before {
+  right: 100%;
+  margin-right: 15px;
+}
+.line-span::after {
+  left: 100%;
+  margin-left: 15px;
+}*/
+
+.row {
+  margin-bottom: 20px;
+}
+
+.container-content {
+  background-color: rgba(38, 166, 91, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.container-content img {
+  border: 2px solid #fff;
+  border-radius: 2px;
+  height: 350px;
+  width: 100%;
+}
+
+.siteName {
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: 0 0 1px #fff;
+  text-align: center;
+}
+
+h6 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 10px;
+  margin-top: -10px;
+}
+
+.contact {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: 000;
+  text-decoration: none;
+}
+
+a:active {
+  color: #000;
+}
